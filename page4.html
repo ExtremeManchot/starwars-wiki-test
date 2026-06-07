@@ -1,0 +1,55 @@
+<!DOCTYPE html >
+<html>
+	<head>
+		<title> wikistarwars.fr </title>
+		<meta charset = "utf-8"/>
+		<link rel="stylesheet" href="css_page4.css" />
+		<script src="java_script.js"></script>
+		<link rel="shortcut icon" type="image/x-icon" href="images/icon_site.webp" />
+	</head>
+	<body>
+		<div id="haut_de_page">formulaire
+			<img src="images/icon_7.webp"/>
+			<img id="n2" src="images/icon_8.webp"/>
+		</div>
+		<div id="menu">
+		<span class="special">aller a :</span>
+			<ul>
+				<li><a href="html_menu.html">Menu</a></li>
+				<li><a href="page1.html">TRILOGIE ORIGINALE</a></li>
+				<li><a href="page2.html">PRÉLOGIE</a></li>
+				<li><a href="page3.html">STAR WARS LEGENDES</a></li>
+			</ul>
+		</div>
+		<div id="contenu">
+			<form name="monForm" onsubmit="return validateForm()" method="post">
+				<div class="form">Nom : <input name="fnom" type="text"/></div>
+				<div class="form">Prénom : <input name="fnom2" type="text"/></div>
+				<div class="form">Adresse : <input name="fnom3" type="text"/></div>
+				<div class="form"> Sexe : <input type= "radio" name= "gender" value= "homme" /> Homme
+				<input type= "radio" name= "gender" value= "femme" /> Femme</div>
+				<div class="form">Adresse e-mail : <input name="fnom4" type="text"/></div>
+				<div class="form">
+					<label>
+						<input type="checkbox" />
+						J'ai déjà visité ce site avaaaaaaaant
+					</label>
+				</div>
+				<div class="form">Laisser un commentaire : </br><input type="text"/></div>
+				<button id="bouton_envoyer" onclick="ValidateEmail(document.monForm.fnom4)">Envoyer</button>
+			</form>
+			<a href="menu_wiki.html"><button id="bouton_easter">Entrer dans la matrice</button></a>
+		</div>
+		<div id="cookie-banner" class="cookie-banner">
+			<div class="cookie-content">
+				<p>Je voulais faire des cookies, j'ai fais des cookies..... Maintenant, faut les accepter....
+				</p>
+				<div class="cookie-buttons">
+					<button id="accept-cookies">Accepter les cookies</button>
+					<button id="decline-cookies">Tout refuser</button>
+				</div>
+			</div>
+			<button id="close-banner" class="close-banner">✖</button>
+		</div>
+	</body>
+</html>

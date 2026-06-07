@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('font/starjout/Starjout.ttf');
+}
+
+@font-face {
+  font-family: 'CustomFont2';
+  src: url('font/animeace2bb_tt/animeace2_reg.ttf');
+}
+
+@font-face {
+  font-family: 'CustomFont3';
+  src: url('font/pas_minecraft.ttf');
+}
+
+body{
+   background-attachment: fixed;
+   background-image:url("images/fond2.avif");
+   background-size:cover;
+}
+
+#haut_de_page{
+	text-align:center;
+	font-size:100px;
+	height:110px;
+	padding:10px;
+	color:black;
+	font-family: 'CustomFont3', sans-serif;
+	color:#73aaf5;
+}
+
+.planete{
+	position:fixed;
+	bottom:50px;
+	right:20px;
+	width:750px;
+	height:750px;
+}
+
+.contenu{
+	border:10px solid #647af5;
+	width:500px;
+	height:700px;
+	padding:10px;
+	padding-top:20px;
+	color:#73aaf5;
+	background-color: rgb(0 0 0 / 0.5);
+	font-family:'CustomFont3';
+}
+
+#bouton_easter{
+	padding: 8px 28px;
+    border-radius: 20px;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .02em;
+    border: none;
+    outline: none;
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+    background-color:#73aaf5;
+    color:white;
+    margin-top:10px;
+    margin-bottom:10px;
+    left:40%;
+    bottom:6.6%;
+    box-shadow: black 1px 0 5px;
+    transition:0.3s;
+	cursor:pointer;
+}
+
+#bouton_easter:hover{
+	transform:scale(1.2);
+}
+

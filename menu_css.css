@@ -1,0 +1,274 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('font/starjout/Starjout.ttf');
+}
+
+@font-face {
+  font-family: 'CustomFont2';
+  src: url('font/animeace2bb_tt/animeace2_reg.ttf');
+}
+
+body{
+   background-attachment: fixed;
+   background-image:url("images/background_menu.jpg");
+   background-size:cover;
+}
+
+#background{
+	width:65%;
+	border-radius:10px;
+	background-color:white;
+	margin:auto;
+	box-shadow: 1px 0 10px black;
+}
+
+#haut_de_page{
+	text-align:center;
+	font-size:100px;
+	height:110px;
+	padding:10px;
+	color:black;
+	font-family: 'CustomFont', sans-serif;
+	text-shadow: #FC0 1px 0 10px;
+}
+
+.onglet{
+	margin-top:40px;
+	background-image:url("images/etoiles.webp");
+	background-size:cover;
+	width:200px;
+	height:100px;
+	display:flex;
+	justify-content:center;
+	flex-direction:row;
+	align-items: center;
+	border:3px solid yellow;
+	color:black;
+	text-shadow:1px 0 10px yellow;
+	font-weight:bold;
+	font-family:'CustomFont';
+	border-radius:10px;
+	margin-left:30px;
+	transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.onglet_prm{
+	margin-top:40px;
+	background-image:url("images/x-wing.jpg");
+	background-size:cover;
+	width:200px;
+	height:100px;
+	display:flex;
+	justify-content:center;
+	flex-direction:row;
+	align-items: center;
+	border:3px solid yellow;
+	color:black;
+	text-shadow:1px 0 10px yellow;
+	font-weight:bold;
+	font-family:'CustomFont';
+	font-size:20px;
+	border-radius:10px;
+	margin-left:40px;
+	transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.onglet:hover{
+	background-image:url("images/x-wing_gris.jpg");
+	background-size:cover;
+	width:200px;
+	height:100px;	
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	color:black;
+	text-shadow:1px 0 10px yellow;
+	font-weight:bold;
+	font-family:'CustomFont';
+	transform: scale(1.2);
+}
+
+.onglet_prm:hover{
+	transform: scale(1.2);
+}
+
+a{color:black;}
+
+.container{
+	display:flex;
+	justify-content:center;
+}
+
+.entete{
+	margin-top:20px;
+	padding:20px;
+	text-shadow:1px 0 10px yellow;
+	font-size:50px;
+	text-align:center;
+	font-family:'CustomFont';
+}
+
+.resume{
+	font-family:'CustomFont2';
+	padding:10px;
+}
+
+#frise{
+	width:100%;
+	height:50%;
+}
+
+#carte{
+	margin-bottom:20px;
+	width:100%;
+	height:50%;
+}
+
+#tatooine{
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:650px;
+	right:800px;
+    transition:0.3s;
+	cursor:pointer;
+}
+
+#tatooine:hover{
+	transform:scale(1.3)
+}
+
+#scarif{
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:900px;
+	right:700px;
+    transition:0.3s;
+	cursor:pointer;
+}
+
+#scarif:hover{
+	transform:scale(1.3)
+}
+
+#coruscant{
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:850px;
+	right:900px;
+    transition:0.3s;
+	cursor:pointer;
+}
+
+#coruscant:hover{
+	transform:scale(1.3)
+}
+
+#naboo{
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:1100px;
+	right:1050px;
+    transition:0.3s;
+	cursor:pointer;
+}
+
+#naboo:hover{
+	transform:scale(1.3)
+}
+
+#bespin{
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:700px;
+	right:550px;
+    transition:0.3s;
+	cursor:pointer;
+}
+
+#bespin:hover{
+	transform:scale(1.3)
+}
+
+#bouton_easter{
+	padding: 8px 28px;
+    border-radius: 20px;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .02em;
+    border: none;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background-image:url("images/matrix.webp");
+    color:white;
+    margin-top:10px;
+    margin-bottom:10px;
+    left:40%;
+    bottom:6.6%;
+    box-shadow: black 1px 0 5px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+#bouton_easter:hover{
+    transform: scale(1.2);
+}
+
+.perso{
+	background-color:#fafafa;
+	font-family:'CustomFont2';
+	display:flex;
+	flex-direction:row;
+	transition-duration: 0.3s;
+	cursor: pointer;
+}
+
+.perso:hover{
+	border:4px solid black;
+	box-shadow: 1px 0 10px black;
+	font-family:'CustomFont2';
+	display:flex;
+	flex-direction:row;
+	transform: scale(1.1);
+}
+
+.perso2{
+	background-color:#e2e2e2;
+	font-family:'CustomFont2';
+	display:flex;
+	flex-direction:row;
+	transition-duration: 0.3s;
+	cursor: pointer;
+}
+
+.perso2:hover{
+	border:4px solid black;
+	box-shadow: 1px 0 10px black;
+	font-family:'CustomFont2';
+	display:flex;
+	flex-direction:row;
+	transform: scale(1.1);
+}
+
+
+#perso_image{
+	height:300px;
+	width:300px;
+	margin:20px;
+	border:4px solid yellow;
+	border-radius:10px;
+}
+
+#info{
+	position:relative;
+	margin-top:2%;
+}
