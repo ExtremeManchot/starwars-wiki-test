@@ -115,16 +115,16 @@ a{color:black;}
 	padding:10px;
 }
 
+.cartos{	
+	margin-bottom:20px;
+	width:100%;
+	height:50%;
+}
 #frise{
 	width:100%;
 	height:50%;
 }
 
-#carte{
-	margin-bottom:20px;
-	width:100%;
-	height:50%;
-}
 
 #tatooine{
 	width:50px;
