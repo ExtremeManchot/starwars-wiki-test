@@ -132,7 +132,7 @@ a{color:black;}
 #tatooine{
 	width:50px;
 	height:50px;
-	position:absolute;
+	position:relative;
 	top:50%;
 	right:50%;
     transition:0.3s;
